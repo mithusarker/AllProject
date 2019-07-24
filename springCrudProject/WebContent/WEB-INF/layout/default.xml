@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="springCrudProject.base" template="/WEB-INF/templates/default.jsp">
+	<put-attribute name="title" value="Home"></put-attribute>
+	 <put-attribute name="header" value="/WEB-INF/tiles/header.jsp"></put-attribute>
+	<put-attribute name="content" value="/WEB-INF/tiles/content.jsp"></put-attribute>
+	<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="index" extends="springCrudProject.base">
+		<put-attribute name="title" value="Home"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/index.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="newaccount" extends="springCrudProject.base">
+		<put-attribute name="title" value="Sign Up"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/newaccount.jsp"></put-attribute>
+	</definition>
+	<definition name="usercreatesuccess" extends="springCrudProject.base">
+		<put-attribute name="title" value="User Add Success"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/usercreatesuccess.jsp"></put-attribute>
+	</definition>
+	<definition name="viewuser" extends="springCrudProject.base">
+		<put-attribute name="title" value="View User"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/viewuser.jsp"></put-attribute>
+	</definition>
+	<definition name="usereditform" extends="springCrudProject.base">
+		<put-attribute name="title" value="Edit User"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/usereditform.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+	<definition name="empform" extends="springCrudProject.base">
+		<put-attribute name="title" value="Add Employee"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/empform.jsp"></put-attribute>
+	</definition>
+	<definition name="empdatasavasuccessfully" extends="springCrudProject.base">
+		<put-attribute name="title" value="Employee Add Success"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/empdatasavasuccessfully.jsp"></put-attribute>
+	</definition>
+	<definition name="viewemp" extends="springCrudProject.base">
+		<put-attribute name="title" value="View Employee"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/viewemp.jsp"></put-attribute>
+	</definition>
+	<definition name="empeditform" extends="springCrudProject.base">
+		<put-attribute name="title" value="Edit Employee"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/empeditform.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+	<definition name="postform" extends="springCrudProject.base">
+		<put-attribute name="title" value="Create Post"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/postform.jsp"></put-attribute>
+	</definition>
+	<definition name="postcreatesuccessfully" extends="springCrudProject.base">
+		<put-attribute name="title" value="Create Success"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/postcreatesuccessfully.jsp"></put-attribute>
+	</definition>
+	<definition name="viewallpost" extends="springCrudProject.base">
+		<put-attribute name="title" value="All Post"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/viewallpost.jsp"></put-attribute>
+	</definition>
+	<definition name="viewcurrentpost" extends="springCrudProject.base">
+		<put-attribute name="title" value="Current Post"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/viewcurrentpost.jsp"></put-attribute>
+	</definition>
+	<definition name="allposteditform" extends="springCrudProject.base">
+		<put-attribute name="title" value="Current Post"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/allposteditform.jsp"></put-attribute>
+	</definition>
+	<definition name="currentposteditform" extends="springCrudProject.base">
+		<put-attribute name="title" value="Current Post"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/currentposteditform.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+	<definition name="blog" extends="springCrudProject.base">
+		<put-attribute name="title" value="Current Post"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/blog.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+	
+	<definition name="admin" extends="springCrudProject.base">
+		<put-attribute name="title" value="Admin"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/admin.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="denied" extends="springCrudProject.base">
+		<put-attribute name="title" value="Access Denied"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/denied.jsp"></put-attribute>
+	</definition>
+	<definition name="error" extends="springCrudProject.base">
+		<put-attribute name="title" value="Database Error"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/error.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="login" extends="springCrudProject.base">
+		<put-attribute name="title" value="Login"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/login.jsp"></put-attribute>
+	</definition>
+	<definition name="loggedout" extends="springCrudProject.base">
+		<put-attribute name="title" value="Loggedout"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/loggedout.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+</tiles-definitions>
